@@ -1,5 +1,7 @@
+#encoding utf-8
 import datetime
 
 def print_time():
     print 'the time is:'
-    return datetime.datetime.now()
+    print datetime.datetime.now()
+print_time()
